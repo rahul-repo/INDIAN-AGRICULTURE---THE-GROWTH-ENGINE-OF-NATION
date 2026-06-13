@@ -1,0 +1,169 @@
+\section{Analyzing the data}
+
+As said earlier , we are now going to identify those state which have highest production of different types of crops like paddy, wheat, jute etc. We have collected data about total production for each individual crop over the years for each state. Then we have sum the total production over the years for each crop. Then we make barplot to identify the highest production state. Also we plot the time series graph for each crop through all over the country to see the trend. It is to be noteworthy that the the years may vary for different crops due to the various availability of the data.
+
+\subsubsection{paddy}
+India is the world's second-largest producer of rice, and the largest exporter of rice in the world. We get a paddy production dataset of Indian states from 2013-14 to 2022-23.But the 2022-23 data is not complete. So we take care of the data from 2013-14 to 2021-22. We sum the total production over the years and then plot it:
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width= 1\linewidth]{Screenshot 2025-04-18 122021.png}
+    \caption{Paddy production of Indian states}
+    \label{fig:enter-label}
+\end{figure}
+
+so we get the top producers are:
+
+\vspace{2 mm}
+\textbf{First}: West Bengal
+
+ \textbf{Second}: Uttar Pradesh
+
+\textbf{Third}: Punjab
+\vspace{2 mm}
+
+\newpage
+Now we are interested in the time series graph for all over India from 2013-14 to 2021-22.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=1\linewidth]{Screenshot 2025-04-18 122821.png}
+    \caption{Paddy production of India}
+    \label{fig:enter-label}
+\end{figure}
+
+So here we can see a good increasing trend over the years. That means the production for paddy is increasing day by day and it is also important for the increasing popoulation.
+
+\subsubsection{wheat}
+Wheat is the second most important food crop.It is the main food crop in the north and north-western parts of the country. India is the second-largest producer of wheat. Here we get the state wise data over three years 2019-20 to 2022-23 and the all over India data from 2014-15 to 2024-25. The diagram is in the next page from which we get our three top producers states are:
+
+\vspace{3 mm}
+\textbf{First}: Uttar Pradesh
+
+ \textbf{Second}: Madhya Pradesh
+
+\textbf{Third}: Punjab
+
+Note : This wheat data has some flaws. As we do not get any data regarding state wise production for the year 2014-15 to 2018-19 and after 2022-23 so we cannot do any further computation with this data. We just mention this data as wheat is the second important food crops of our country.
+\newpage 
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width= 1\linewidth]{Screenshot 2025-04-18 124925.png}
+    \caption{Wheat production of Indian states}
+    \label{fig:enter-label}
+\end{figure}
+
+Also have a look for all over the country.
+
+\begin{figure}[h!]
+        \centering
+        \includegraphics[width=1\linewidth]{Screenshot 2025-04-18 123722.png}
+        \caption{Wheat production of India}
+        \label{fig:enter-label}
+    \end{figure}
+
+\subsubsection{Other crops}
+
+As we have covered our main two food crops, we will give the production of top three states of India only, for the other crops. This is because the other crops are not growing all over the country and the data related to these production is not available as such. This all data are collected from \textit{\textcolor{red}{Unified Portal for Agricultural Statistics (UPAg)} }. We have discussed some food crops (Jowar, Bajra, Ragi, Moong) and some cash crops(sugarcane,cotton,jute, mesta) one by one.
+
+\begin{figure}[h!]
+    \centering
+    \subfloat[\centering Jowar production of Indian states]
+    {{\includegraphics[width=0.65\linewidth]{Screenshot 2025-04-18 103227.png} }}%
+    \subfloat[\centering Bajra production of Indian states]{{\includegraphics[width=0.65\linewidth]{Screenshot 2025-04-18 103644.png} }}%
+    \label{fig:enter-label}
+\end{figure}
+
+\begin{figure}[h!]
+    \centering
+    \subfloat[\centering Ragi production of Indian states]
+    {{\includegraphics[width=0.65\linewidth]{Screenshot 2025-04-18 103811.png} }}%
+    \subfloat[\centering Moong production of Indian states]{{\includegraphics[width=0.65\linewidth]{Screenshot 2025-04-18 104048.png}}}%
+    \label{fig:enter-label}
+\end{figure}
+
+So we get the top producers of these crops:
+
+\textbf{Jowar}: Rajasthan
+
+\textbf{Bajra}: Rajasthan
+
+\textbf{Ragi}: Karnataka
+
+\textbf{Moong}: Rajasthan
+
+\vspace{2 mm}
+Now, let us discuss some cash crops:- 
+
+\vspace{2 mm}
+[note: - In the data set there are several other crops.But we cannot discuss all of them as they are not too much popular across the all over regions of India. Moreover this will just increase the length of this project. That's why we are only focusing on some of the crops and then want to see the production pattern and based on that want to predict the production value for future.]
+\newpage
+
+\begin{figure}[h!]
+    \centering
+    \subfloat[\centering Sugarcane production of Indian states]
+    {{\includegraphics[width=0.65\linewidth]{Screenshot 2025-04-18 104239.png} }}%
+    \subfloat[\centering Cotton production of Indian states]{{\includegraphics[width=0.65\linewidth]{Screenshot 2025-04-18 105341.png}}}%
+    \label{fig:enter-label}
+\end{figure}
+
+\begin{figure}[h!]
+    \centering
+    \subfloat[\centering Jute production of Indian states]
+    {{\includegraphics[width=0.65\linewidth]{Screenshot 2025-04-18 105507.png} }}%
+    \subfloat[\centering Mesta production of Indian states]{{\includegraphics[width=0.65\linewidth]{Screenshot 2025-04-18 112217.png}}}%
+    \label{fig:enter-label}
+\end{figure}
+\vspace{2 mm}
+
+So we get the top producers of these crops:
+\vspace{2 mm}
+
+\textbf{Sugarcane}: Uttar Pradesh
+
+\textbf{Cotton}: Maharashtra
+
+\textbf{Jute}: West Bengal
+
+\textbf{Mesta}: West Bengal
+\vspace{2 mm}
+
+Now we discuss the overall India's trend for these crops over the years from 2019-20 to 2024-25. After seeing these trend we can see that the production for each year is not fixed obviously. We suspect that this variation is due to the climatic factor specially Rainfall and temperature. As these varies year to year it is our primary assumption that these factors have a crucial role in crop production. Hence, we want to find correlation among these variables. In the next section we have find partial correlation between crop production and temperature given rainfall and partial correlation between crop production and rainfall given temperature for the crops \textcolor{red}{paddy, Jowar} and \textcolor{red}{jute}. We omit the others as the other may show similar behavior and we do not want to extend this paper unnecessarily large.
+\newpage
+
+\begin{figure}[h!]
+    \centering
+    \subfloat[\centering Jowar production of India]
+    {{\includegraphics[width=0.65\linewidth]{Screenshot 2025-04-18 113801.png} }}%
+    \subfloat[\centering Bajra production of India]{{\includegraphics[width=0.65\linewidth]{Screenshot 2025-04-18 113858.png}}}%
+    \label{fig:enter-label}
+\end{figure}
+
+\begin{figure}[h!]
+    \centering
+    \subfloat[\centering Ragi production of India]
+    {{\includegraphics[width=0.65\linewidth]{Screenshot 2025-04-18 114000.png} }}%
+    \subfloat[\centering Moong production of India]{{\includegraphics[width=0.65\linewidth]{Screenshot 2025-04-18 114059.png}}}%
+    \label{fig:enter-label}
+\end{figure}
+
+\begin{figure}[h!]
+    \centering
+    \subfloat[\centering Sugarcane production of India]
+    {{\includegraphics[width=0.65\linewidth]{Screenshot 2025-04-18 114155.png} }}%
+    \subfloat[\centering cotton production of India]{{\includegraphics[width=0.65\linewidth]{Screenshot 2025-04-18 114303.png}}}%
+    \label{fig:enter-label}
+\end{figure}
+
+\newpage
+\begin{figure}[h!]
+    \centering
+    \subfloat[\centering Jute production of India]
+    {{\includegraphics[width=0.65\linewidth]{Screenshot 2025-04-18 114447.png} }}%
+    \subfloat[\centering Mesta production of India]{{\includegraphics[width=0.65\linewidth]{Screenshot 2025-04-18 114540.png}}}%
+    \label{fig:enter-label}
+\end{figure}
+
+\subsection{Partial correlation}
+As said before we are now going to see the impact of Rainfall and Temperature on crop production. For this purpose we have computed partial correlation using R. The R codes are also given here:-
