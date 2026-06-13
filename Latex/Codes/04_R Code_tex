@@ -1,0 +1,61 @@
+ \section{R code} 
+ 
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width= 0.85\linewidth]{Screenshot 2025-04-18 183625.png}
+    \caption{Partial correlation between Paddy production and temperature}
+    \label{fig:enter-label}
+\end{figure}
+
+\newpage
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width= 0.86\linewidth]{Screenshot 2025-04-18 183717.png}
+    \caption{Partial correlation between Paddy production and rainfall}
+    \label{fig:enter-label}
+\end{figure}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.86\linewidth]{Screenshot 2025-04-18 183820.png}
+    \caption{Partial correlation between Jowar production and temperature}
+    \label{fig:enter-label}
+\end{figure}
+
+\newpage
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.86\linewidth]{Screenshot 2025-04-18 183750.png}
+    \caption{Partial correlation between Jowar production and rainfall}
+    \label{fig:enter-label}
+\end{figure}
+
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.85\linewidth]{Screenshot 2025-04-18 184014.png}
+    \caption{Partial correlation between Jute production and temperature}
+    \label{fig:enter-label}
+\end{figure}
+
+\newpage
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.85\linewidth]{Screenshot 2025-04-18 183936.png}
+    \caption{Partial correlation between Jute production and rainfall}
+    \label{fig:enter-label}
+\end{figure}
+
+So for each crop we can see some important observations:
+
+\vspace{2 mm}
+
+\textbf{Paddy}: Partial correlation between paddy production and temperature given rainfall and  Partial correlation between paddy production and rainfall given temperature are both positive. This imply that good amount of rainfall and temperature is perfect for paddy production. This seems to be true if we consider the scenario of West Bengal.
+\vspace{2 mm}
+
+\textbf{Jowar}: Partial correlation between jowar production and temperature given rainfall and  Partial correlation between jowar production and rainfall given temperature are both negative. This imply that dry weather is perfect for Jowar production. That's why the western part of India produce lot of millets than the other part of the country.
+\vspace{2 mm}
+
+\textbf{Jute}: Partial correlation between jute production and temperature given rainfall and  Partial correlation between jute production and rainfall given temperature are both positive. This again imply that good amount of rainfall and temperature is perfect for paddy production. Hence, West Bengal is in the top in jute production.
