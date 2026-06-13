@@ -1,0 +1,20 @@
+\section{Abstract}
+
+Agriculture has been the cornerstone of India’s economy and culture for centuries. Often referred to as the backbone of rural India, it not only sustains a large section of the population but also contributes significantly to the country’s GDP and employment. Despite rapid industrialization and the growth of the service sector, agriculture continues to play a crucial role in the socio-economic fabric of the country.
+
+India, with its diverse agro-climatic zones and rich agricultural heritage, is home to a wide range of food and non-food crops. The country’s agricultural landscape is shaped by varying soil types, climatic conditions, and traditional cultivation practices, resulting in the growth of crops that sustain millions of livelihoods. 
+
+In this article our main goal will be :
+\vspace{2 mm}
+
+\hspace{-5 mm}\textbf{i)} {\color{blue}To identify the states of India which has largest amount of production of different crops (rice,wheat,jute etc.) }
+
+\vspace{1 mm}
+\hspace{-5 mm}\textbf{ii)} {\color{blue}explore any potential correlations between crop yield and different climatic factors(like rainfall , temperature etc)}
+
+\vspace{1 mm}
+\hspace{-5 mm}\textbf{iii)} {\color{blue} To analyze overall trends over time and to predict this year possible crop yield after concerning different factors.}
+
+\vspace{1 mm}
+
+\hspace{-5 mm}\textbf{iv)}{\color{blue} We are also interested to examine different types of problems in Indian agricultural system and come up with ways to reduce these problems via policy measures or farmers outreach programs.}
